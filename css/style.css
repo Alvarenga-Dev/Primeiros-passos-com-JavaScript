@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
+/* === === === === === === === === === GLOBAL === === === === === === === === === === === */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    background: #0c0c0c;
+    background-size: 100% 100%;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: .8em;
+}
+
+body::-webkit-scrollbar-track {
+    background: #0c0c0c;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #222, #333);
+    background-size: 100%;
+}
+
+h1, h2, h3, h4, p {
+    color: #f1f1f1;
+}
+
+h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: .5em;
+}
+
+a {
+    color: #68d4e7;
+    text-decoration: none;
+    padding: 0 0 .1em 0;
+    position: relative;
+}
+
+a::before {
+    content: "";
+    border-radius: 1em;
+    border-top: .13em solid #68d4e7;
+    position: absolute;
+        right: 100%;
+        bottom: 0;
+        left: 0;
+    transition: right .8s cubic-bezier(0, .5, 0, 1);    
+}
+
+a:hover::before {
+    right: 0;
+}
+
+p {
+    margin: 2em;
+}
+
+/* === === === === === === === === === HEADER === === === === === === === === === === === */
+.header-content{
+    margin: 1em;
+}
+
+.header-content h1,h2,h3 {
+    margin: .5em 0;
+    text-align: center;
+}
+
+.note {
+    background: #3f233f;
+    border: 1px solid #643864;
+    margin: 3.5em 1em 3.5em 1em;
+    padding: .2em;
+}
+
+.note h1 {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: .3em;
+    padding: .3em;
+    text-align: left;
+}
+
+.note p {
+    font-size: .9em;
+    margin: .5em;
+    padding: 0 1em;
+}
+
+.note ul {
+    color: #f1f1f1;
+    margin: 1.2em;
+    padding: 1em;
+    list-style: none;
+}
+
+.note ul li {
+    padding: .5em;
+}
+
+/* === === === === === === === === === CODE === === === === === === === === === === === */
+
+.window-code {
+    position: relative;
+    background: #3f233f;
+    border-radius: .6em;
+    box-shadow: .4em .4em .8em rgba(83, 47, 83, 0.4);
+    color: #f1f1f1;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 1em 5em 1em 5em;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.window-code .window-title-container{
+    margin: .1em;
+    padding: .4em .8em;
+    position: absolute;
+        top: 0;
+        right: 0;
+    width: 100%;
+}
+
+.window-code .code-js .function-js{
+    color: #68d4e7;
+}
+
+.window-code .code-js .comment{
+    color: rgba(90, 90, 90, 0.7);
+    margin: 0 .5em;
+}
+
+/* === === === === === === === === === OUTPUT === === === === === === === === === === === */ 
+
+.container-output {
+    color: #f1f1f1;
+    margin: 1em;
+}
+
+/* === === === === === === === === === FOOTER === === === === === === === === === === === */ 
+
+footer {
+    text-align: center;
+    margin: 2em 0;
+}
+
+footer .footer-text {
+    color: #f1f1f1;
+    font-size: .9em;
+}
+
+
+/* === === === === === === === === === Aux Class === === === === === === === === === === === */ 
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.space {
+    margin-left: 3.2em;
+}

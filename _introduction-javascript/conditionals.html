@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Introdução ao JavaScript: Estruturas condicionais - Lucas Alvarenga</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header class="header-content">
+        <h1> Estruturas condicionais </h1>
+        <p class="text-center"> As estruturas condicionais servem para realizar o controle de fluxo de executação de uma determinada aplicação. </p>
+        
+        <div class="note">
+            <h1> Observação </h1>
+            <p>  As estruturas condicionais são: if - else - else if - switch - ternária </p>
+        </div>
+        
+        <h4> Exemplos de estruturas condicionais no JavaScript: 👇</h4>
+    </header>
+
+    <main>
+        
+
+        <div class="window-code">
+
+            <div class="window-title-container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="14" viewBox="0 0 54 14">
+                    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+                        <circle cx="6" cy="6" r="6" fill="#FF5F56" stroke="#E0443E" stroke-width=".5"></circle>
+                        <circle cx="26" cy="6" r="6" fill="#FFBD2E" stroke="#DEA123" stroke-width=".5"></circle>
+                        <circle cx="46" cy="6" r="6" fill="#27C93F" stroke="#1AAB29" stroke-width=".5"></circle>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="code-js">
+                <p class="coding">if ( expressão booleana ) {</p>
+                <p class="coding space">Bloco de código a ser executado se passar na condição;</p>
+                <p class="coding">} else {</p>
+                <p class="coding space">Bloco de código a ser executado se não passar na condição;</p>
+                <p class="coding">}</p>
+            </div>
+
+        </div>
+
+        <div class="window-code">
+
+            <div class="window-title-container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="14" viewBox="0 0 54 14">
+                    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+                        <circle cx="6" cy="6" r="6" fill="#FF5F56" stroke="#E0443E" stroke-width=".5"></circle>
+                        <circle cx="26" cy="6" r="6" fill="#FFBD2E" stroke="#DEA123" stroke-width=".5"></circle>
+                        <circle cx="46" cy="6" r="6" fill="#27C93F" stroke="#1AAB29" stroke-width=".5"></circle>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="code-js">
+                <p class="coding">if ( expressão booleana ) {</p>
+                <p class="coding space">Bloco de código a ser executado se passar na condição e não continua a execução do bloco de condições;</p>
+                <p class="coding">} else if ( expressão booleana ) {</p>
+                <p class="coding space">Bloco de código a ser executado se não passar na condição anterior e, após executar, não continua no bloco de condições;</p>
+                <p class="coding">} else {</p>
+                <p class="coding space">Bloco de código a ser executado se não passar na condição;</p>
+                <p class="coding">}</p>
+            </div>
+
+        </div>
+        <div class="window-code">
+
+            <div class="window-title-container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="14" viewBox="0 0 54 14">
+                    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+                        <circle cx="6" cy="6" r="6" fill="#FF5F56" stroke="#E0443E" stroke-width=".5"></circle>
+                        <circle cx="26" cy="6" r="6" fill="#FFBD2E" stroke="#DEA123" stroke-width=".5"></circle>
+                        <circle cx="46" cy="6" r="6" fill="#27C93F" stroke="#1AAB29" stroke-width=".5"></circle>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="code-js">
+                <p class="coding">switch ( variável ) {</p>
+                <p class="coding">case condição :</p>
+                <p class="coding space">Bloco de código a ser executado se passar na condição;</p>
+                <p class="coding">.</p>
+                <p class="coding">Podendo ter N cases...</p>
+                <p class="coding">.</p>
+                <p class="coding">default condição</p>
+                <p class="coding space">Se nenhum case tiver a condição desejada, cairá no bloco default (padrão);</p>
+                <p class="coding">}</p>
+            </div>
+
+        </div>
+
+        <div class="note">
+            <h1> Observação </h1>
+            <p>  A condição ternária é utilizada quando temos apenas duas verificações. </p>
+        </div>
+
+        <div class="window-code">
+
+            <div class="window-title-container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="14" viewBox="0 0 54 14">
+                    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+                        <circle cx="6" cy="6" r="6" fill="#FF5F56" stroke="#E0443E" stroke-width=".5"></circle>
+                        <circle cx="26" cy="6" r="6" fill="#FFBD2E" stroke="#DEA123" stroke-width=".5"></circle>
+                        <circle cx="46" cy="6" r="6" fill="#27C93F" stroke="#1AAB29" stroke-width=".5"></circle>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="code-js">
+                <p class="coding"><span class="function-js">var</span> ternario = ( expressão booleana ) <span class="function-js">?</span> resultado1 <span class="function-js">:</span> resultado2;</p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer> 
+        <p> 😜 Dica: Pratique bastante, pois estruturas condicionais são muito utilizadas! </p>
+    </footer>
+    <script>
+        function retornaSexo(sexo){
+         //M - F
+         //Masculino - Feminino
+         /*
+         if (sexo === 'M') {
+            return 'Masculino';
+         } else if (sexo === 'F') {
+            return 'Feminino'
+         } else {
+             return 'Outro'
+         }  */
+
+         switch (sexo) {
+            case 'M':
+                return 'Masculino';
+            case 'F': 
+                return 'Feminino';
+            default:
+                return 'Outro';    
+         }
+
+        }
+
+        var resultado = retornaSexo('Fa');
+        console.log(resultado);
+
+        var ternario = (sexo === 'M') ? 'Masculino' : 'Feminino';
+
+        console.log(ternario);
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Introdução ao JavaScript: Variáveis - Lucas Alvarenga</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+
+        <header class="header-content">
+            <h1> Variáveis </h1>
+            <p class="text-center"> Variáveis são áreas de memória associadas a um nome que pode armazenar valores de um determinado tipo, ou seja, unidade de memória relacionada a uma nomeação. </p>
+            
+            <div class="note">
+                <h1> Observação </h1>
+                <p>  Variáveis no JavaScript possuem tipagem dinâmica! Os nomes das variáveis são case-sensitive, isto é, o JavaScript faz a diferenciação de letras maiúsculas e minúsculas! </p>
+            </div>
+            <h4> Exemplos de variáveis no JavaScript: 👇</h4>
+        </header>
+
+        <div class="window-code">
+
+            <div class="window-title-container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="14" viewBox="0 0 54 14">
+                    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+                        <circle cx="6" cy="6" r="6" fill="#FF5F56" stroke="#E0443E" stroke-width=".5"></circle>
+                        <circle cx="26" cy="6" r="6" fill="#FFBD2E" stroke="#DEA123" stroke-width=".5"></circle>
+                        <circle cx="46" cy="6" r="6" fill="#27C93F" stroke="#1AAB29" stroke-width=".5"></circle>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="code-js">
+                <p class="coding">var nome = 'Lucas'; <span class="comment">//String</span></p>
+                <p class="coding">var idade = 16; <span class="comment">//Inteiro</span></p>
+                <p class="coding">var peso = 52.1; <span class="comment">//Decimal</span></p>
+                <p class="coding">var humano = true; <span class="comment">//Boolean</span></p>
+                <p class="coding">var professores = ['Franklin', 'Estevão', 'Fernando']; <span class="comment">//Array</span></p>
+                <p class="coding">var aluno = { <span class="comment">//Objeto JavaScript</span></p>
+                <p class="coding space">nome: "Lucas",</p>
+                <p class="coding space">idade: 16,</p>
+                <p class="coding space">peso: 52.1,</p>
+                <p class="coding space">humano: true</p>
+                <p class="coding">}</p>
+            </div>
+
+        </div>
+
+        <script>
+            //Javascript -> Variáveis no JavaScript possuem tipagem dinâmica!
+            
+            var nome = 'Lucas'; //String
+            var idade = 16; //Inteiro
+            var peso = 52.1; //Decimal
+            var humano = true; //Boolean
+
+            var professores = ['Franklin', 'Estevão', 'Fernando']; //Array
+
+            var aluno = { //Objeto JavaScript
+                nome: "Lucas",
+                idade: 16,
+                peso: 52.1, 
+                humano: true
+            }
+
+            console.log(professores[0]);
+            console.log(aluno.humano);
+        </script>
+    </body>
+</html>

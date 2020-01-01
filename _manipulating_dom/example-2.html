@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manipulação do DOM na prática - Lucas Alvarenga</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="form-group mr-4 mt-4 ml-4">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control form-control-lg" id="inputName">
+    </div>
+
+    <button class="btn btn-primary btn-block">Click me :)</button>
+    
+    <ul class="list">
+    </ul>
+    
+    <script>
+        
+        const list = document.querySelector('.list');
+        const btn = document.querySelector('.btn');
+        const inputName = document.querySelector('#inputName');
+        /*const nomes = ['Lucas', 'Estevão', 'Fernando'];
+
+        nomes.forEach(element => {
+            const itens = document.createElement('li');
+            itens.innerHTML = element;
+            list.appendChild(itens)
+        }); */
+
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            const itens = document.createElement('li');
+            itens.innerHTML = inputName.value;
+            console.log(inputName);
+            list.appendChild(itens);
+            inputName.value = '';
+        });
+        
+
+    </script>
+</body>
+</html>

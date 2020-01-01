@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manipulação do DOM na prática - Lucas Alvarenga</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+</head>
+<body>
+    
+    <button class="btn btn-primary">Click me :)</button>
+    
+    <script>
+        const btn = document.querySelector('.btn');
+
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            const divElement = document.createElement('div');
+            divElement.style.backgroundColor = '#fff';
+            divElement.style.width = '100px';
+            divElement.style.height = '100px';
+            divElement.onmouseover = () => divElement.style.backgroundColor = getRandomColor();
+
+            const body = document.querySelector('body');
+
+            body.appendChild(divElement);
+        })
+
+        function getRandomColor() {
+            let letters = "0123456789ABCDEF";
+            let color = "#";
+            for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+        
+    </script>
+</body>
+</html>
