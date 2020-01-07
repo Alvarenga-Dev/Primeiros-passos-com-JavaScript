@@ -12,7 +12,7 @@
 
 ## Sobre o JavaScript 
 
-<p>JavaScript é uma linguagem de programação de auto nível, leve, interpretada e é mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser e isso se deu com o surgimento do node.js! avaScript é uma linguagem fácil de se aprender e é muito poderosa, pois podemos fazer simples páginas web e até aplicativos nativos multiplataformas!</p>
+<p>JavaScript é uma linguagem de programação de auto nível, leve, interpretada e é mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser e isso se deu com o surgimento do node.js! O JavaScript é uma linguagem fácil de se aprender e é muito poderosa, pois podemos fazer simples páginas web e até aplicativos nativos multiplataformas!</p>
 
 <p><b> Não se deve confundir o JavaScript com a linguagem de programação Java! </b></p>
 
