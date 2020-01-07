@@ -1,6 +1,6 @@
 <h1 align="center">Seus primeiros passos com JavaScript!</h1>
 <p align="center">
-    <img alt="Logo do JavaScript" src="images/js-logo.png" width="500">
+    <img alt="Logo do JavaScript" src="images/js-logo.png" width="400">
     <p align="center"><b>Aprenda uma das linguagens mais populares do Github e que possui uma curva de aprendizado impressionante!</b></p>
 </p>
 
@@ -16,7 +16,7 @@
 
 <p><b> Não se deve confundir o JavaScript com a linguagem de programação Java! </b></p>
 
-<br/><br/>
+<br/>
 
 ## Como executar códigos JavaScript 💻
 
@@ -28,6 +28,8 @@
 
 Site para o download do node.js e NPM: [nodejs.org](https://nodejs.org/pt-br/)
 
+<br/><br/>
+
 ## Fotos do projeto 📸
 
 <p align="center">
@@ -37,6 +39,8 @@ Site para o download do node.js e NPM: [nodejs.org](https://nodejs.org/pt-br/)
 <p align="center">
     <img alt="Exemplo de estrutura de cada arquivo .JavaScript - Loops" src="images/loops.png" width="500">
 </p>
+
+<br/>
 
 ## Autor
 
