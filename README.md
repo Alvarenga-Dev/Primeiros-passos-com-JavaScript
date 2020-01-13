@@ -8,7 +8,7 @@
 
 ## Sobre o repositório 🗂
 
-<p>Repositório criado com o objetivo de ajudar outros a entenderem melhor a linguagem JavaScript! Assim, você poderá ver a aplicação e explicação de cada recurso que é utilizada em cada arquivo (como variáveis, funções e etc). Caso você não conheça o JavaScript e esteja iniciando no "maravilhoso universo da programação", haverá a seguir uma breve explicação do que é o JavaScript e como você pode começar a codificar!</p>
+> Repositório criado com o objetivo de ajudar outros a entenderem melhor a linguagem JavaScript! Assim, você poderá ver a aplicação e explicação de cada recurso que é utilizada em cada arquivo (como variáveis, funções e etc). Caso você não conheça o JavaScript e esteja iniciando no "maravilhoso universo da programação", haverá a seguir uma breve explicação do que é o JavaScript e como você pode começar a codificar!
 
 ## Sobre o JavaScript 
 
@@ -30,7 +30,7 @@ Site para o download do node.js e NPM: [nodejs.org](https://nodejs.org/pt-br/)
 
 <br/><br/>
 
-## Fotos do projeto 📸
+## Fotos sobre introdução ao JavaScript 📸
 
 <p align="center">
     <img alt="Exemplo de estrutura de cada arquivo .JavaScript - variáveis" src="images/variables.png" width="500">
@@ -40,7 +40,27 @@ Site para o download do node.js e NPM: [nodejs.org](https://nodejs.org/pt-br/)
     <img alt="Exemplo de estrutura de cada arquivo .JavaScript - Loops" src="images/loops.png" width="500">
 </p>
 
+<p align="center">Esses são os primeiros passos que você pode dar na programação usando JavaScript!</p>
+
 <br/>
+
+## Como usar os diretórios _ES6 e _webpack 📝
+
+<p align="center">
+    Verifique primeiro qual gerenciador de pacotes você está utilizando (NPM ou Yarn). Após isso instale as seguintes dependências.
+</p>
+
+```bash
+yarn add @babel/cli
+yarn add @babel/preset-env
+yarn add @babel/core
+yarn add webpack
+yarn add webpack-cli
+yarn add babel-loader
+```
+
+> Você pode utilizar o npm, acima é apenas o exemplo de instalação usando o yarn e mostrando quais dependências realizei a instalação!
+
 
 ## Autor
 
