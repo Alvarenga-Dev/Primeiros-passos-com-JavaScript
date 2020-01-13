@@ -8,7 +8,7 @@
 
 ## Sobre o repositório 🗂
 
-> Repositório criado com o objetivo de ajudar outros a entenderem melhor a linguagem JavaScript! Assim, você poderá ver a aplicação e explicação de cada recurso que é utilizada em cada arquivo (como variáveis, funções e etc). Caso você não conheça o JavaScript e esteja iniciando no "maravilhoso universo da programação", haverá a seguir uma breve explicação do que é o JavaScript e como você pode começar a codificar!
+<p>Repositório criado com o objetivo de ajudar outros a entenderem melhor a linguagem JavaScript! Assim, você poderá ver a aplicação e explicação de cada recurso que é utilizada em cada arquivo (como variáveis, funções e etc). Caso você não conheça o JavaScript e esteja iniciando no "maravilhoso universo da programação", haverá a seguir uma breve explicação do que é o JavaScript e como você pode começar a codificar!</p>
 
 ## Sobre o JavaScript 
 
@@ -46,9 +46,7 @@ Site para o download do node.js e NPM: [nodejs.org](https://nodejs.org/pt-br/)
 
 ## Como usar os diretórios _ES6 e _webpack 📝
 
-<p align="center">
-    Verifique primeiro qual gerenciador de pacotes você está utilizando (NPM ou Yarn). Após isso instale as seguintes dependências.
-</p>
+<p>Verifique primeiro qual gerenciador de pacotes você está utilizando (Npm ou Yarn). Após isso instale as seguintes dependências.</p>
 
 ```bash
 yarn add @babel/cli
@@ -59,7 +57,7 @@ yarn add webpack-cli
 yarn add babel-loader
 ```
 
-> Você pode utilizar o npm, acima é apenas o exemplo de instalação usando o yarn e mostrando quais dependências realizei a instalação!
+> Você pode utilizar o npm, acima é apenas o exemplo de instalação utilizando o yarn e mostrando quais dependências realizei a instalação!
 
 
 ## Autor
@@ -71,4 +69,4 @@ yarn add babel-loader
 
 ## Dá uma estrelinha e compartilha! ⭐️🚀
 
-Copyright © 2019 [Lucas Alvarenga](https://github.com/Alvarenga-Dev).<br/><br/>
+Copyright © 2019 [Lucas Alvarenga](https://github.com/Alvarenga-Dev). <br/>
