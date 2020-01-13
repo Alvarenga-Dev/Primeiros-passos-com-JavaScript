@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#repo-form {
+    padding: 1em;
+}
+
+ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    padding: 0 1em;
+}
+
+li {
+    clear: both;
+    margin: 1.2em 0;
+}
+
+img {
+    border-radius: .5em;
+    float: left;
+    margin: .5em;
+    width: 100px;
+}
+
+strong {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: .9em;
+    margin: .5em 0 1em 0;
+}
+
+a {
+    border: .1em solid #214db3;
+    border-radius: .3em;
+    color: #214db3;
+    text-decoration: none;
+    padding: .2em .5em .2em .5em;
+}
+
+a:hover {
+    background: #214db3;
+    color: #fff;
+    text-decoration: none;
+}
