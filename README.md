@@ -30,7 +30,7 @@ Site para o download do node.js e NPM: [nodejs.org](https://nodejs.org/pt-br/)
 
 <br/><br/>
 
-## Fotos sobre introdução ao JavaScript 📸
+## Fotos sobre o diretório de introdução 📸
 
 <p align="center">
     <img alt="Exemplo de estrutura de cada arquivo .JavaScript - variáveis" src="images/variables.png" width="500">
