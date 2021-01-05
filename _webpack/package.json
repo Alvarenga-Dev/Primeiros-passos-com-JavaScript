@@ -13,7 +13,7 @@
     "webpack-dev-server": "^3.10.1"
   },
   "dependencies": {
-    "axios": "^0.19.1"
+    "axios": "^0.21.1"
   },
   "scripts": {
     "dev": "webpack-dev-server --mode=development",
